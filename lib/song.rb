@@ -3,7 +3,11 @@ require 'pry'
 class Song 
 attr_accessor :name, :artist, :genre
 
+<<<<<<< HEAD
   @@count = 0 
+=======
+  @@count = 0
+>>>>>>> 3778eba4cea2fa7c3cd44105cb3df61103b544ea
   @@genres = []
   @@artists = []
   
@@ -11,15 +15,21 @@ attr_accessor :name, :artist, :genre
     @name = name 
     @artist = artist 
     @genre = genre 
+<<<<<<< HEAD
     @@count +=1 
     @@genres << genre 
     @@artists << artist
+=======
+    @@count + 1 
+    @@genres << genre 
+>>>>>>> 3778eba4cea2fa7c3cd44105cb3df61103b544ea
   end 
   
   def self.count
     @@count 
   end 
   
+<<<<<<< HEAD
   def self.genres
     @@genres.uniq 
   end
@@ -50,6 +60,19 @@ attr_accessor :name, :artist, :genre
       end
     end 
     artist_count
+
+  def self.genres 
+    @@genres 
+  end
+  
+   def self.artists
+    @@artists << 
+  end
+  
+  def self.genre_count
+  end 
+  
+  def self.artist_count
   end 
 
 end 
