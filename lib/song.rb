@@ -14,8 +14,6 @@ attr_accessor :name, :artist, :genre
     @@count +=1 
     @@genres << genre 
     @@artists << artist
-    @@count + 1 
-    @@genres << genre 
 
   end 
   
